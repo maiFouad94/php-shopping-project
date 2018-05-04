@@ -1,0 +1,48 @@
+Here are simple steps to use this php project :
+first configure virtual host and add this folder directory then restart apache server,
+open browser and write in url : "shoppinglab.local/home.php"
+you will get into home page ..
+
+what i have finished from the required tasks :
+● Home Page 
+	○ Search for products 
+	○ Filter by category (All - Samsung - LG - Nokia - Apple) 
+	○ View Products (each product have [name,price,photo,description(first 100 chars)]) 
+	○ each product has button [add to cart] by AJAX 
+● Login Page 
+● Signup Page 
+● View Product page (full description not just first 100 chars) 
+● View Cart (show all added product to the cart and you can remove one from ur cart with total price of all added products) 
+● Add Product page (add product to category) 
+● Profile page (your account information and button for edit my profile info) 
+● Edit profile page (edit your information and return to your profile view)
+● Logout button.
+
+
+● add product only for admin that has id=1
+● cart saved on session 
+● search for products handled by AJAX autocomplete jquery plugin 
+● incase of not login user  
+	○ you can’t add to cart 
+	○ you cant add products 
+	○ you cant open any page (only home page,register,login) 
+● incase of logged in user (GENERAL_USER) 
+	○ you can use “add to cart” button 
+	○ you cant add product  
+	○ you can view ur cart 
+● incase of logged in User (ADMIN) 
+	○ you can do what GENERAL_USER do 
+	○ you can add product
+
+
+
+Bonus Features: 
+● edit product incase of admin 
+● delete product incase of admin 
+● on view product page 
+	○ add review (text and rate[1,2,3,4,5]) at the end of the page to write review to the product  
+	○ show reviews for each product at the end of the view product page 
+	○ show average rate for each product on view product page
+	○ add average rate for the product in home page beside each product
+
+

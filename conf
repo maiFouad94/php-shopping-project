@@ -1,0 +1,12 @@
+<VirtualHost *:80>
+  ServerAlias shoppinglab.local
+  ServerName shoppinglab.local
+  DocumentRoot "/home/mai/shoppinglab/web"
+  <Directory "/home/mai/shoppinglab/web">
+    Require all granted
+    Allowoverride all
+    Allow from all
+  </Directory>
+</VirtualHost>
+
+
